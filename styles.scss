@@ -1,7 +1,8 @@
 // Import scss components using SCSS Globbing
 @import "theme/**/**";
 @import "utilities/**/**";
-@import "base/**/**";
+@import "base/reset.scss";
+@import "base/base.scss";
 @import "components/**/**";
 @import "layout/**/**";
 @import "states/**/**";
