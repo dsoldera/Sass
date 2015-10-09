@@ -1,8 +1,8 @@
-// Import scss components.
-@import "theme/*";
-@import "utilities/*";
-@import "base/*";
-@import "components/";
-@import "layout";
-@import "states";
-@import "shame";
+// Import scss components using SCSS Globbing
+@import "theme/**/**";
+@import "utilities/**/**";
+@import "base/**/**";
+@import "components/**/**";
+@import "layout/**/**";
+@import "states/**/**";
+@import "shame/**/**";
